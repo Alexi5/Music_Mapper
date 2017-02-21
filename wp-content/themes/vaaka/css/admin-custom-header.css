@@ -1,0 +1,36 @@
+/* Overwrite some of the styles in admin header page. */
+
+/* ====== Primary Font ====== */
+
+body,
+#site-title,
+.main .entry-subtitle,
+button,
+.font-primary {
+	font-family: 'Source Sans Pro','Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+
+/* ====== Secondary Font ====== */
+
+blockquote,
+dt,
+.entry-byline .entry-author a,
+var,
+.font-secondary {
+	font-family: 'Roboto Condensed','Helvetica Neue',Helvetica,Arial,sans-serif;
+	font-weight: 400;
+}
+
+/* ====== Headlines Font ====== */
+
+h1, h2, h3, h4, h5, h6,
+.font-headlines,
+#site-description {
+	font-family: 'Roboto Condensed','Helvetica Neue',Helvetica,Arial,sans-serif;
+	font-weight: 400;
+	line-height: 1.2;
+	text-transform: uppercase;
+}
+#site-description {
+	text-transform: none;
+}

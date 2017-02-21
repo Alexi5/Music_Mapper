@@ -1,0 +1,21 @@
+@import url(https://fonts.googleapis.com/css?family=Dosis);
+.so-widget-sow-headline-sow-headline-929c74599f8e #sow-headline-container.sow-headline h1 {
+  font-family: Dosis;
+  font-weight: 400;
+  text-align: center;
+  color: #0d1b40;
+  line-height: 1.4;
+}
+.so-widget-sow-headline-sow-headline-929c74599f8e #sow-headline-container.sow-headline h3 {
+  font-family: Dosis;
+  font-weight: 400;
+  text-align: center;
+  color: #333333;
+  line-height: 1.4;
+}
+.so-widget-sow-headline-sow-headline-929c74599f8e #sow-headline-container.sow-headline .decoration {
+  border-top: thin none #ffffff;
+  position: relative;
+  height: 1px;
+  margin: 20px 60px;
+}

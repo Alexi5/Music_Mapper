@@ -1,0 +1,68 @@
+/**
+ * Theme Name:  Vaaka
+ * Theme URI:   http://themehybrid.com/themes/vaaka
+ * Description: It is all about the balance in life and in written word. Vaaka theme goal is to make publishing your written word fun and easy at the same time.
+ * Version:     1.0.0
+ * Author:      Sami Keijonen
+ * Author URI:  https://foxnet-themes.fi
+ * Tags:        one-column, custom-background, custom-colors, custom-header, custom-menu, editor-style, featured-images, post-formats, responsive-layout, rtl-language-support, theme-options, threaded-comments, translation-ready
+ * Text Domain: vaaka
+ * Domain Path: /languages/
+ * License:     GNU General Public License v2.0 or later
+ * License URI: http://www.gnu.org/licenses/gpl-2.0.html
+ * Template:    saga
+ */
+
+/*
+ * Note that the parent theme's `style.css` file is automatically loaded.  Do *not* try to load it again 
+ * with `@import`.
+ */
+ 
+/* ====== Primary Font ====== */
+
+body,
+#site-title,
+.main .entry-subtitle,
+button,
+.font-primary {
+	font-family: 'Source Sans Pro','Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+
+/* ====== Secondary Font ====== */
+
+blockquote,
+dt,
+.entry-byline .entry-author a,
+var,
+.font-secondary {
+	font-family: 'Roboto Condensed','Helvetica Neue',Helvetica,Arial,sans-serif;
+	font-weight: 400;
+}
+
+/* ====== Headlines Font ====== */
+
+h1, h2, h3, h4, h5, h6,
+.font-headlines {
+	font-family: 'Roboto Condensed','Helvetica Neue',Helvetica,Arial,sans-serif;
+	font-weight: 400;
+	line-height: 1.2;
+	text-transform: uppercase;
+}
+#site-description,
+.entry-subtitle {
+	text-transform: none;
+}
+
+.mce-content-body,
+.entry-content,
+.entry-summary,
+.comment-content {
+	font-size: 1.125rem;
+	line-height: 1.5;
+}
+
+/* === menu-primary colors === */
+
+#menu-primary li a {
+	border-top-color: rgba( 255, 255, 255, 0.35 );
+}

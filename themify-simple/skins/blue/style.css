@@ -1,0 +1,113 @@
+/*  
+Skin Name: Blue
+Version: 1.0
+*/
+
+a,
+#main-nav a,
+.social-widget a,
+.post-nav .next .arrow:before,
+.post-nav .prev .arrow:before {
+	color: #3dc7fe;
+}
+
+input[type=reset], input[type=submit], button {
+	background-color: #3dc7fe;	
+}
+
+a:hover,
+.social-widget a:hover,
+.post-title a:hover {
+	color: #3dc7fe;	
+}
+
+.page-category-title-wrap,
+.category-title-overlay,
+.pagenav .current,
+.pagenav a:hover,
+.more-link {
+	background-color: #3dc7fe;
+}
+
+/************************************************************************************
+HEADER
+*************************************************************************************/
+#headerwrap #searchform #s {
+	border-color: #3dc7fe;
+}
+#headerwrap #searchform .icon-search {
+	color: #3dc7fe;
+}
+.transparent-header #headerwrap #searchform .icon-search {
+	color: inherit;
+}
+
+/************************************************************************************
+MAIN NAVIGATION
+*************************************************************************************/
+.sidemenu {
+	background-color: #3dc7fe;
+}
+#headerwrap #menu-icon {
+	color: #3dc7fe;
+}
+#main-nav li:hover > a,
+#main-nav .current_page_item > a,
+#main-nav .current-menu-item > a {
+	color: #00B6FF;
+}
+
+/* dropdown border & arrow */
+#main-nav ul {
+	border-color: #00B6FF;
+}
+#main-nav ul:after {
+	border-bottom-color: #00B6FF;
+}
+#main-nav ul ul:after {
+	border-right-color: #00B6FF;
+}
+
+.transparent-header .social-widget a {
+	color: inherit;
+}
+.transparent-header #main-nav > li > a,
+.transparent-header #headerwrap #menu-icon {
+	color: #fff;
+}
+.transparent-header #main-nav > li:hover > a,
+.transparent-header #main-nav .current_page_item > a,
+.transparent-header #main-nav .current-menu-item > a {
+	color: #E8E8E8;
+}
+.transparent-header #headerwrap.fixed-header #main-nav > li > a {
+	color: #000;
+}
+.transparent-header #headerwrap #searchform .icon-search {
+	color: inherit;
+}
+
+/************************************************************************************
+RESPONSIVE
+*************************************************************************************/
+@media screen and (max-width: 1160px) {
+	#headerwrap #main-nav a,
+	#headerwrap #main-nav ul a,
+	.social-widget a,
+	#headerwrap #menu-icon-close {
+		color: #fff;
+	}
+	#headerwrap #searchform #s,
+	#headerwrap #searchform #s:focus,
+	#headerwrap #searchform #s:hover,
+	#headerwrap #searchform .icon-search:hover + #s {
+		color: #000;
+	}
+	.social-widget a:hover {
+		color: inherit;
+	}
+	.transparent-header #headerwrap .social-widget a,
+	.transparent-header #headerwrap #menu-icon-close {
+		color: inherit;
+	}
+}

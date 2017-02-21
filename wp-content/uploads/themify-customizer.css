@@ -1,0 +1,54 @@
+/* Themify Customize Styling */
+#pagewrap {		background-image: none;
+	background-color: #0d1b40;
+	background-color: rgba(13,27,64,1.00); 
+}
+h2 {		
+	color: #ffffff;
+	color: rgba(255,255,255,1); 
+}
+h3 {		
+	color: #ffffff;
+	color: rgba(255,255,255,1); 
+}
+#site-logo {			text-align:right;
+	color: #0d1b40;
+	color: rgba(13,27,64,1);		position:relative;
+top: auto;
+	right: 6%; 
+}
+#site-logo a {	
+	color: #0d1b40;
+	color: rgba(13,27,64,1); 
+}
+#main-nav {			position:relative;
+	width: auto;	
+	height: 0px;	
+	padding-bottom: 10%;	
+	margin: 0px; 
+}
+#main-nav a {			font-size:30px;
+	
+	color: #c4d3eb;
+	color: rgba(196,211,235,1.00); 
+}
+#main-nav a:hover {		
+	color: #c4d3eb;
+	color: rgba(196,211,235,1.00); 
+}
+#main-nav .current_page_item a,  #main-nav .current-menu-item a {		
+	background-color: #c4d3eb;
+	background-color: rgba(196,211,235,1.00); 
+}
+#footerwrap {		
+	background-color: #0d1b40;
+	background-color: rgba(13,27,64,1); 
+}
+#footer {		
+	color: #ffffff;
+	color: rgba(255,255,255,1.00); 
+}
+#footer a {		
+	color: #ffffff;
+	color: rgba(255,255,255,1.00); 
+}
